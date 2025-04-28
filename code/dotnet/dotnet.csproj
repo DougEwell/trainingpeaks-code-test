@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>..\..</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Calculations\MaxWeight.cs" />
+    <None Include="Calculations\TotalWeight.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Helpers\DateTimeConverter.cs" />
+    <None Include="Helpers\Deserialize.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Entities\Block.cs" />
+    <None Include="Entities\Exercise.cs" />
+    <None Include="Entities\Set.cs" />
+    <None Include="Entities\User.cs" />
+    <None Include="Entities\Workout.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="9.0.4" />
+  </ItemGroup>
+
+</Project>

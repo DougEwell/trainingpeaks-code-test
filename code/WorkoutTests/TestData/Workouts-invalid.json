@@ -1,0 +1,16 @@
+[
+    {
+        "user_id": 101,
+        "datetime_completed": null,
+        "blocks": [
+            {
+                "sets": [
+                    {
+                        "reps": 5,
+                        "weight": null
+                    }
+                ]
+            }
+        ]
+    }
+]
